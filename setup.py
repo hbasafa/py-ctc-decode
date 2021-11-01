@@ -12,10 +12,10 @@ KENLM_COMMIT = '96d303cfb1a0c21b8f060dbad640d7ab301c019a'
 
 # Packages required in 'production'
 REQUIRED = [
-    'tqdm==4.39.0',
+    'tqdm',
     'kenlm',
-    'numpy==1.16.2',
-    'psutil==5.6.7',
+    'numpy',
+    'psutil',
 ]
 
 # Packages required for dev/ci enrionment
